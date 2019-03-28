@@ -3,7 +3,7 @@ import tensorflow as tf
 import numpy as np
 
 #Prepare
-tra_X = np.linspace(-10,10,5000)
+tra_X = np.linspace(-10,10,1000)
 tra_Y = 2 * tra_X + np.random.randn(*tra_X.shape) * 1.33 + 10
 
 #Define the model
